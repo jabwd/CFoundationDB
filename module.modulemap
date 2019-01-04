@@ -1,0 +1,5 @@
+module CFoundationDB [system] {
+	header "shim.h"
+	link "fdb_c"
+	export *
+}
